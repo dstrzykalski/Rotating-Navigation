@@ -16,7 +16,7 @@ body {
     background-color: #fafafa;
     transform-origin: top left;
     transition: transform 0.7s;
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
     padding: 50px;
 }
@@ -25,6 +25,9 @@ body {
     transform: rotate(-20deg);
 }
 
+.container.show-nav .circle-container {
+   transform: rotate(-70deg);
+}
 .circle-container {
     position: fixed;
     top: -100px;
